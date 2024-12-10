@@ -2,7 +2,7 @@
 #!desc= 𝗕𝘆: 𝗗𝘂𝗻𝗴𝗡𝗴𝘂𝘆𝗲𝗻𝟬𝟱
 
 [Script]
-revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/dungnguyen0537/modules/refs/heads/main/Locket?token=GHSAT0AAAAAAC3WYP43P2YEGV7K6KWYY2PYZ2YKMUQ, requires-body=true, max-size=-1, timeout=60
+revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/dungnguyen0537/modules/refs/heads/main/Locket?token=GHSAT0AAAAAAC3WYP43ZDN7FINWMRMMKWNKZ2YKVAQ, requires-body=true, max-size=-1, timeout=60
 
 deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/dungnguyen0537/modules/refs/heads/dungnguyen0537-LKG_LMT/Locket?token=GHSAT0AAAAAAC3V2ZRV6MZKWVQSDBNVEYDKZ2XPQFA, timeout=60
 
